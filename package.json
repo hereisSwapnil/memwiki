@@ -1,0 +1,32 @@
+{
+  "name": "memwiki",
+  "version": "1.0.0",
+  "description": "A zero-friction persistent memory protocol for AI agents.",
+  "main": "dist/index.js",
+  "bin": {
+    "memwiki": "./dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "ai",
+    "agents",
+    "memory",
+    "wiki",
+    "cursor",
+    "claude",
+    "copilot",
+    "llm"
+  ],
+  "author": "Swapnil",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.13.9",
+    "typescript": "^5.8.2"
+  }
+}
