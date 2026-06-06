@@ -1,6 +1,6 @@
 {
   "name": "memwiki",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A zero-friction persistent memory protocol for AI agents.",
   "main": "dist/index.js",
   "bin": {
