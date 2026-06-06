@@ -9,6 +9,14 @@
   "files": [
     "dist"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hereisSwapnil/memwiki.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hereisSwapnil/memwiki/issues"
+  },
+  "homepage": "https://github.com/hereisSwapnil/memwiki#readme",
   "scripts": {
     "build": "tsc",
     "prepublishOnly": "npm run build"

@@ -1,0 +1,7 @@
+.memory/
+.cursorrules
+CLAUDE.md
+AGENTS.md
+.github/
+src/
+tsconfig.json
