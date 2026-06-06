@@ -4,7 +4,7 @@
   "description": "A zero-friction persistent memory protocol for AI agents.",
   "main": "dist/index.js",
   "bin": {
-    "memwiki": "./dist/index.js"
+    "memwiki": "dist/index.js"
   },
   "files": [
     "dist"
@@ -19,7 +19,7 @@
   "homepage": "https://github.com/hereisSwapnil/memwiki#readme",
   "scripts": {
     "build": "tsc",
-    "prepublishOnly": "npm run build"
+    "prepack": "npm run build"
   },
   "keywords": [
     "ai",
