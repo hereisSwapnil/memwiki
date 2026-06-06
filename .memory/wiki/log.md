@@ -11,3 +11,4 @@
 - Identified the project as the MemWiki CLI tool itself, which utilizes TypeScript, zero runtime dependencies, and synchronous file I/O for simple initialization workflows.
 - Updated `index.md` to link to the new `landscape.md` and `competitors.md` files.
 - Added `.npmignore` to explicitly prevent `.memory` and root protocol files from being published to the npm registry.
+- Bumped npm version to `1.0.1`.
