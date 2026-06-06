@@ -40,7 +40,7 @@ These root files act as the automatic "front door" for any AI agent that connect
 
 ### The Folder Structure
 
-\`\`\`
+```text
 [Project Root]
 ├── .cursorrules           (Hook for Cursor)
 ├── .github/copilot-instructions.md (Hook for Copilot)
@@ -56,7 +56,7 @@ These root files act as the automatic "front door" for any AI agent that connect
         ├── patterns.md    (Coding patterns and conventions)
         ├── bugs.md        (Known issues and quirks)
         └── decisions.md   (Architecture Decision Records)
-\`\`\`
+```
 
 ### Reading & Synthesizing
 
@@ -105,4 +105,4 @@ Because `AGENTS.md` explicitly teaches your AI tool how to behave, it also gives
 - **Team Scalability:** Ensures that whether a team member uses Cursor or Gemini, they both operate on the exact same project context.
 
 ## Inspired By
-This pattern is heavily inspired by Andrej Karpathy's LLM Wiki pattern.
+This pattern is heavily inspired by Andrej Karpathy's [LLM Wiki pattern](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f).

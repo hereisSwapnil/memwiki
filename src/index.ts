@@ -31,7 +31,7 @@ Please read \`AGENTS.md\` and \`.memory/wiki/hot.md\` as your primary source of 
   // --- The Protocol ---
   'AGENTS.md': `# MemWiki Protocol: Agent Instructions
 
-This project uses **MemWiki**, a persistent compounding knowledge base for AI coding agents.
+This project uses **MemWiki** (inspired by the [LLM Wiki pattern](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)), a persistent compounding knowledge base for AI coding agents.
 
 ## 1. Session Start (Reading)
 Whenever you start a new session or task, you MUST:
